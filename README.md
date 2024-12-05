@@ -1,9 +1,10 @@
-# **AttendanceTracker** #
+# Структура проекта **AttendanceTracker** #
 
-## Структура проекта ##
-
-### namespace<AttendanceTracker.Core> ###
+## AttendanceTracker.Core ##
 Пространство проекта, включающий в себя сборки описывающие его прикладную область, инфраструктуру и базовые реализации.
 
-#### namespace<AttendanceTracker.Core.Domain> ####
+### AttendanceTracker.Core.Domain ###
 Сборка, содержащая абстракции высшего уровня.
+
+### AttendanceTracker.Core.Infrastructure ###
+Сборка, содержащая инфраструктурные абстракции, т.е. логику хранения и передачи данных.
